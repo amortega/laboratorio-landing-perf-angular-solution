@@ -5,5 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './home.component.html',
 })
 export class HomeComponent {
-  constructor() {}
+  constructor() {
+    console.log('monte home');
+  }
 }
